@@ -1,0 +1,1004 @@
+512">
+      <assemblyIdentity name="DevExpress.XtraGauges.v14.1.Presets" version="14.1.8.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VTihRjyG1NGQ/Vyq9HtXFJdEKBUF+put7nyuFKhgrxY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\DevExpress.XtraGauges.v14.1.Presets.resources.dll" size="13312">
+      <assemblyIdentity name="DevExpress.XtraGauges.v14.1.Presets.resources" version="14.1.0.0" publicKeyToken="B88D1754D700E49A" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fs7K0plB7DJrt62itnZeBomndZs8j0mhxWHfKR+C54o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraGauges.v14.1.Win.dll" size="238080">
+      <assemblyIdentity name="DevExpress.XtraGauges.v14.1.Win" version="14.1.8.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xWMv6yWh49L2MfGXAytM37s3Qpc1WuR8sZwNoS0Mixs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraGrid.v14.1.dll" size="2570240">
+      <assemblyIdentity name="DevExpress.XtraGrid.v14.1" version="14.1.8.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nTRADKP7CZ55zU7/oQhZEwYCEKXyLx1nCl4wU52Tlrc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\DevExpress.XtraGrid.v14.1.resources.dll" size="44544">
+      <assemblyIdentity name="DevExpress.XtraGrid.v14.1.resources" version="14.1.0.0" publicKeyToken="B88D1754D700E49A" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>RTgakhlpcIa/EIT/cNMzFwKwRtemRmhGBQ5FF6E+qhc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraLayout.v14.1.dll" size="1380864">
+      <assemblyIdentity name="DevExpress.XtraLayout.v14.1" version="14.1.8.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>21jBK7aULoaDqaQ1aNi9jrutdxq2hpoSXSq/LyhFetA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\DevExpress.XtraLayout.v14.1.resources.dll" size="11776">
+      <assemblyIdentity name="DevExpress.XtraLayout.v14.1.resources" version="14.1.0.0" publicKeyToken="B88D1754D700E49A" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wm0QnesjiFOgYTpoya+wAR0FNUnTrFZlK7bs6kRpgdE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraMap.v14.1.dll" size="808960">
+      <assemblyIdentity name="DevExpress.XtraMap.v14.1" version="14.1.8.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>JyX5JG4MRcR6KfK0SyXG5uuieJc0SW/iLEXYRIBYC0A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraNavBar.v14.1.dll" size="399360">
+      <assemblyIdentity name="DevExpress.XtraNavBar.v14.1" version="14.1.8.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sIFMgrlkFDiCuXCviPhxSJXeH8T3cLG/D7DKalF+X+c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\DevExpress.XtraNavBar.v14.1.resources.dll" size="5632">
+      <assemblyIdentity name="DevExpress.XtraNavBar.v14.1.resources" version="14.1.0.0" publicKeyToken="B88D1754D700E49A" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>X8FcEBeltvNgdoOc3YHSYy2z4Zz3ibgBV+k8WeM+Q6o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraPdfViewer.v14.1.dll" size="244224">
+      <assemblyIdentity name="DevExpress.XtraPdfViewer.v14.1" version="14.1.8.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>66wMuB1WsJ0jshxPVWzNWbWsJTzyYISLJd7cvoVyXjU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\DevExpress.XtraPdfViewer.v14.1.resources.dll" size="9728">
+      <assemblyIdentity name="DevExpress.XtraPdfViewer.v14.1.resources" version="14.1.0.0" publicKeyToken="B88D1754D700E49A" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Iek1byzLk9H2k9vriU6OcyT83vhYzlwmoJ1RBtLmILA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraPivotGrid.v14.1.dll" size="625152">
+      <assemblyIdentity name="DevExpress.XtraPivotGrid.v14.1" version="14.1.8.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2YmherQOH+ZQkvGVJs8TZ+XzAErxhlZjfBCg+gkI7w4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\DevExpress.XtraPivotGrid.v14.1.resources.dll" size="5632">
+      <assemblyIdentity name="DevExpress.XtraPivotGrid.v14.1.resources" version="14.1.0.0" publicKeyToken="B88D1754D700E49A" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/U1U+L7PY9atYydN9sO0Btd5w//Cohuo/1wUj5F1W3I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraPrinting.v14.1.dll" size="703488">
+      <assemblyIdentity name="DevExpress.XtraPrinting.v14.1" version="14.1.8.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xSq5Ho0IfXd1E8B8MCAE0FsEWZXoKOwQc2S3TqOsAoo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\DevExpress.XtraPrinting.v14.1.resources.dll" size="25600">
+      <assemblyIdentity name="DevExpress.XtraPrinting.v14.1.resources" version="14.1.0.0" publicKeyToken="B88D1754D700E49A" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>aJi/KUJdL+hodd0MwnDlf+9QvF52B1Lds+mV7CYM3Vo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraReports.v14.1.dll" size="1342976">
+      <assemblyIdentity name="DevExpress.XtraReports.v14.1" version="14.1.8.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sf22Jv/UvjIbmI+MBOGdXHvQ7cTw7ktLhTsdEUcefsk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraReports.v14.1.Extensions.dll" size="2574336">
+      <assemblyIdentity name="DevExpress.XtraReports.v14.1.Extensions" version="14.1.8.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Bxe3BYQJBkwEFreUhSRkIIoOTs0a5FY01L8jE8nNdRc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\DevExpress.XtraReports.v14.1.Extensions.resources.dll" size="32768">
+      <assemblyIdentity name="DevExpress.XtraReports.v14.1.Extensions.resources" version="14.1.0.0" publicKeyToken="B88D1754D700E49A" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>1+68x5GGCq3weEDAMqW36xuUrrltW8L1OIuOZHWb0rY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\DevExpress.XtraReports.v14.1.resources.dll" size="169472">
+      <assemblyIdentity name="DevExpress.XtraReports.v14.1.resources" version="14.1.0.0" publicKeyToken="B88D1754D700E49A" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>SBynXEijc/LjJVnIUeWVgJDC+1y+9g6HNl78FTLHrVw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraRichEdit.v14.1.dll" size="1917440">
+      <assemblyIdentity name="DevExpress.XtraRichEdit.v14.1" version="14.1.8.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>WUuNwpnOYP8iYZijx8Zpaq/P84fBq9+r2OMU9/BQmqU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\DevExpress.XtraRichEdit.v14.1.resources.dll" size="79872">
+      <assemblyIdentity name="DevExpress.XtraRichEdit.v14.1.resources" version="14.1.0.0" publicKeyToken="B88D1754D700E49A" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>x3kfV+sK6OL6c9YmyEw+coLV6VC3NcY62/3dK38a7mg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraScheduler.v14.1.dll" size="1746944">
+      <assemblyIdentity name="DevExpress.XtraScheduler.v14.1" version="14.1.8.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GLhrC/s8mtboKDftgEih0I59JuhmKPC5fDsK/Asn77Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraScheduler.v14.1.Core.dll" size="1416192">
+      <assemblyIdentity name="DevExpress.XtraScheduler.v14.1.Core" version="14.1.8.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>SRc0pXdU5QI5mzt0Ek54f5eGcQtcNg7AJRNVRhY1ZmM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\DevExpress.XtraScheduler.v14.1.Core.resources.dll" size="57856">
+      <assemblyIdentity name="DevExpress.XtraScheduler.v14.1.Core.resources" version="14.1.0.0" publicKeyToken="B88D1754D700E49A" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>yYoryeUTYfyNIPaq1dhRhVva8hynyWZ2c8UcEcOjfho=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraScheduler.v14.1.Reporting.dll" size="297472">
+      <assemblyIdentity name="DevExpress.XtraScheduler.v14.1.Reporting" version="14.1.8.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NFQkdjCoN0RwOfrNQQwHZsnQxMkXrYYdLngIUPdIuF0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\DevExpress.XtraScheduler.v14.1.Reporting.resources.dll" size="7168">
+      <assemblyIdentity name="DevExpress.XtraScheduler.v14.1.Reporting.resources" version="14.1.0.0" publicKeyToken="B88D1754D700E49A" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LTUg/BQ0Edmkh6pbPJyKT91SI0wV1JHHaR/qPOV4OWA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\DevExpress.XtraScheduler.v14.1.resources.dll" size="78336">
+      <assemblyIdentity name="DevExpress.XtraScheduler.v14.1.resources" version="14.1.0.0" publicKeyToken="B88D1754D700E49A" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CA5cRUgYH8aQAEZQwmcIWu9C/ve14PEQ1RExOan2oxQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraTreeList.v14.1.dll" size="912384">
+      <assemblyIdentity name="DevExpress.XtraTreeList.v14.1" version="14.1.8.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CMJhPsERuSvD0a/lyGDhcKkinTJAbTEwuXe6NM6KCUU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\DevExpress.XtraTreeList.v14.1.resources.dll" size="17408">
+      <assemblyIdentity name="DevExpress.XtraTreeList.v14.1.resources" version="14.1.0.0" publicKeyToken="B88D1754D700E49A" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wArgywJnukDDzAQUCbFc51o0viebc7IOfV1qsHN6st0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraVerticalGrid.v14.1.dll" size="677888">
+      <assemblyIdentity name="DevExpress.XtraVerticalGrid.v14.1" version="14.1.8.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>K+b/+2jqpOuBSY2nt7vODoTTMKbeW9x5KYESxVU++h0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\DevExpress.XtraVerticalGrid.v14.1.resources.dll" size="6144">
+      <assemblyIdentity name="DevExpress.XtraVerticalGrid.v14.1.resources" version="14.1.0.0" publicKeyToken="B88D1754D700E49A" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>R41Zc/2SZpFbsS3r/r1zR8wwplJpJ3w4TAFYG+Xqg0g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevExpress.XtraWizard.v14.1.dll" size="81920">
+      <assemblyIdentity name="DevExpress.XtraWizard.v14.1" version="14.1.8.0" publicKeyToken="B88D1754D700E49A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4MhKSszDv1eYR/CTox8QITjmmbJ42ynpGZiRU+MqzJo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\DevExpress.XtraWizard.v14.1.resources.dll" size="6144">
+      <assemblyIdentity name="DevExpress.XtraWizard.v14.1.resources" version="14.1.0.0" publicKeyToken="B88D1754D700E49A" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/RjVPHICoNjA227yUCFo/NJ2O6fnu7A+m2ePoh5HezQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.ReportViewer.Common.dll" size="8740464">
+      <assemblyIdentity name="Microsoft.ReportViewer.Common" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VGvEnARn8Q6mxyJJKbcVhn5qxOAxvBN7ul0mvzFeS98=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.ReportViewer.DataVisualization.dll" size="5422704">
+      <assemblyIdentity name="Microsoft.ReportViewer.DataVisualization" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Iic/Z0Q2PCi/vX0CYuLI/0NLQm6eUeFYUGHcjQpgK0E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.ReportViewer.ProcessingObjectModel.dll" size="126568">
+      <assemblyIdentity name="Microsoft.ReportViewer.ProcessingObjectModel" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>A90mjbOvkk3Vu5cZ00EeT+BxqKuUQna29vTzCRvGM9I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.ReportViewer.WinForms.dll" size="564848">
+      <assemblyIdentity name="Microsoft.ReportViewer.WinForms" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>MeOhMz+sm7YX3UKJTcXeyXZpMcH9T67M4vnqgCw8ev4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.SqlServer.Types.dll" size="384112">
+      <assemblyIdentity name="Microsoft.SqlServer.Types" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CUDKdDFN88cD8itxx7gM+9N25v7jFUIrwqKI/9gRqqg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="vizits.exe" size="1238016">
+      <assemblyIdentity name="vizits" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>gBvgBJKjnA6A+ZZYeKjd3NP0PnVJuuK5aJmsZow2wKU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="new2.ico" size="99678">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CR0it3jSpdUr7P9l6EXhhA1v3ojDoCd10yG3UZOl35Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="vizits.exe.config" size="1635">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Qn+eeGPx3YA94J7wqv5aUMh1CbKWaBYCK91c1aXuwOs=</dsig:DigestValue>
+    </hash>
+  </file>
+</asmv1:assembly>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       <?php
+
+/* columns_definitions/column_attribute.twig */
+class __TwigTemplate_414342a8387d48fb2595985bbee9e62190c70bbfb0ae960736d33c402367b8ca extends Twig_Template
+{
+    public function __construct(Twig_Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->parent = false;
+
+        $this->blocks = [
+        ];
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        // line 1
+        if (((isset($context["submit_attribute"]) || array_key_exists("submit_attribute", $context)) && (($context["submit_attribute"] ?? null) != false))) {
+            // line 2
+            echo "    ";
+            $context["attribute"] = ($context["submit_attribute"] ?? null);
+        } elseif (($this->getAttribute(        // line 3
+($context["column_meta"] ?? null), "Extra", [], "array", true, true) && ($this->getAttribute(        // line 4
+($context["column_meta"] ?? null), "Extra", [], "array") == "on update CURRENT_TIMESTAMP"))) {
+            // line 5
+            echo "    ";
+            $context["attribute"] = "on update CURRENT_TIMESTAMP";
+        } elseif ($this->getAttribute(        // line 6
+($context["extracted_columnspec"] ?? null), "attribute", [], "array", true, true)) {
+            // line 7
+            echo "    ";
+            $context["attribute"] = $this->getAttribute(($context["extracted_columnspec"] ?? null), "attribute", [], "array");
+        } else {
+            // line 9
+            echo "    ";
+            $context["attribute"] = "";
+        }
+        // line 11
+        $context["attribute"] = twig_upper_filter($this->env, ($context["attribute"] ?? null));
+        // line 12
+        echo "<select name=\"field_attribute[";
+        echo twig_escape_filter($this->env, ($context["column_number"] ?? null), "html", null, true);
+        echo "]\"
+    id=\"field_";
+        // line 13
+        echo twig_escape_filter($this->env, ($context["column_number"] ?? null), "html", null, true);
+        echo "_";
+        echo twig_escape_filter($this->env, (($context["ci"] ?? null) - ($context["ci_offset"] ?? null)), "html", null, true);
+        echo "\">
+    ";
+        // line 14
+        $context["cnt_attribute_types"] = (twig_length_filter($this->env, ($context["attribute_types"] ?? null)) - 1);
+        // line 15
+        echo "    ";
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable(range(0, ($context["cnt_attribute_types"] ?? null)));
+        foreach ($context['_seq'] as $context["_key"] => $context["i"]) {
+            // line 16
+            echo "        <option value=\"";
+            echo twig_escape_filter($this->env, $this->getAttribute(($context["attribute_types"] ?? null), $context["i"], [], "array"), "html", null, true);
+            echo "\"";
+            // line 17
+            echo (((($context["attribute"] ?? null) == twig_upper_filter($this->env, $this->getAttribute(($context["attribute_types"] ?? null), $context["i"], [], "array")))) ? (" selected=\"selected\"") : (""));
+            echo ">
+            ";
+            // line 18
+            echo twig_escape_filter($this->env, $this->getAttribute(($context["attribute_types"] ?? null), $context["i"], [], "array"), "html", null, true);
+            echo "
+        </option>
+    ";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['i'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 21
+        echo "</select>
+";
+    }
+
+    public function getTemplateName()
+    {
+        return "columns_definitions/column_attribute.twig";
+    }
+
+    public function isTraitable()
+    {
+        return false;
+    }
+
+    public function getDebugInfo()
+    {
+        return array (  77 => 21,  68 => 18,  64 => 17,  60 => 16,  55 => 15,  53 => 14,  47 => 13,  42 => 12,  40 => 11,  36 => 9,  32 => 7,  30 => 6,  27 => 5,  25 => 4,  24 => 3,  21 => 2,  19 => 1,);
+    }
+
+    /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
+    public function getSource()
+    {
+        @trigger_error('The '.__METHOD__.' method is deprecated since version 1.27 and will be removed in 2.0. Use getSourceContext() instead.', E_USER_DEPRECATED);
+
+        return $this->getSourceContext()->getCode();
+    }
+
+    public function getSourceContext()
+    {
+        return new Twig_Source("", "columns_definitions/column_attribute.twig", "D:\\Jamila\\openserver\\OSPanel\\modules\\system\\html\\openserver\\phpmyadmin\\templates\\columns_definitions\\column_attribute.twig");
+    }
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using DevExpress.XtraGrid;
+using DevExpress.XtraReports.UI;
+
+namespace Meters_SIM
+{
+    public partial class Operation_with_SimCards : DevExpress.XtraEditors.XtraForm
+    {
+        private SIMOTIONDataSet1TableAdapters.QueriesTableAdapter QueriesTableAdapter2;
+        public Operation_with_SimCards()
+        {
+            InitializeComponent();
+            QueriesTableAdapter2 = new SIMOTIONDataSet1TableAdapters.QueriesTableAdapter();
+        }
+
+        private void Operation_with_SimCards_Load(object sender, EventArgs e)
+        {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "sIMOTIONDataSet1.Sim_issue". При необходимости она может быть перемещена или удалена.
+            this.sim_issueTableAdapter.Fill(this.sIMOTIONDataSet1.Sim_issue);
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Вы действительно \nхотите удалить запись? \n", "Внимание!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                QueriesTableAdapter2.DeleteQuery(global.id_schetchik);
+                MessageBox.Show("Запись удалена!");
+                this.sim_issueTableAdapter.Fill(this.sIMOTIONDataSet1.Sim_issue);
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+             try
+            {
+                var rowHandle = advBandedGridView1.FocusedRowHandle;
+                int id_simno =Convert.ToInt32(advBandedGridView1.GetRowCellValue(rowHandle, "id_simno"));
+                string id_device= advBandedGridView1.GetRowCellValue(rowHandle, "id_device").ToString();
+                string id_modem = advBandedGridView1.GetRowCellValue(rowHandle, "id_modem").ToString();
+                string adres = advBandedGridView1.GetRowCellValue(rowHandle, "adres").ToString();
+                string sim_place = advBandedGridView1.GetRowCellValue(rowHandle, "sim_place").ToString();
+                string type_device = advBandedGridView1.GetRowCellValue(rowHandle, "type_device").ToString();
+                string modem_note = advBandedGridView1.GetRowCellValue(rowHandle, "modem_note").ToString();
+                string note = advBandedGridView1.GetRowCellValue(rowHandle, "note").ToString();
+                DateTime date_operation = Convert.ToDateTime(advBandedGridView1.GetRowCellValue(rowHandle, "date_operation"));
+                string tel_abon = advBandedGridView1.GetRowCellValue(rowHandle, "tel_abon").ToString();
+                string adress_abon = advBandedGridView1.GetRowCellValue(rowHandle, "adress_abon").ToString();
+                string kto_poluch = advBandedGridView1.GetRowCellValue(rowHandle, "kto_poluch").ToString();
+                string note_status = advBandedGridView1.GetRowCellValue(rowHandle, "note_status").ToString();               
+               
+                if (global.id_schetchik < 1)
+                {
+
+                    QueriesTableAdapter2.InsertQuery(id_simno,id_device,id_modem,adres,sim_place,
+                        type_device,modem_note,note,date_operation,tel_abon,adress_abon,kto_poluch,note_status);
+
+                }
+                else
+                {
+
+                    QueriesTableAdapter2.UpdateQuery(id_simno,id_device,id_modem,adres,sim_place,
+                        type_device,modem_note,note,date_operation,tel_abon,adress_abon,kto_poluch,note_status,global.id_schetchik);
+                }
+                int ii = simissueBindingSource.Position;
+                MessageBox.Show("Данные сохранены!");
+                this.sim_issueTableAdapter.Fill(this.sIMOTIONDataSet1.Sim_issue);
+                simissueBindingSource.Position = ii;
+            }
+            catch { }
+        }
+
+        private void ShowGridPreview(GridControl grid)
+        {
+            // Check whether the GridControl can be previewed.
+            if (!grid.IsPrintingAvailable)
+            {
+                MessageBox.Show("The 'DevExpress.XtraPrinting' library is not found", "Error");
+                return;
+            }
+
+            // Open the Preview window.
+            grid.ShowPrintPreview();
+        }
+
+        private void PrintGrid(GridControl grid)
+        {
+            // Check whether the GridControl can be printed.
+            if (!grid.IsPrintingAvailable)
+            {
+                MessageBox.Show("The 'DevExpress.XtraPrinting' library is not found", "Error");
+                return;
+            }
+
+            // Print.
+            grid.Print();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+            advBandedGridView1.ShowPrintPreview();
+        }
+
+        private void simkiBindingSource_CurrentItemChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                if (simissueBindingSource.Count > 0)
+                {
+                    global.id_schetchik = Convert.ToInt32(((DataRowView)simissueBindingSource.Current).Row["id"].ToString());
+                }
+            }
+            catch { }
+        }           
+        }
+
+
+    }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ﻿namespace Meters_SIM
+{
+    partial class Operation_with_SimCards
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            this.sIMOTIONDataSet1 = new Meters_SIM.SIMOTIONDataSet1();
+            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.simissueBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.advBandedGridView1 = new DevExpress.XtraGrid.Views.BandedGrid.AdvBandedGridView();
+            this.gridBand1 = new DevExpress.XtraGrid.Views.BandedGrid.GridBand();
+            this.colid = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.colid_simno = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.colid_device = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.colid_modem = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.coladres = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.colsim_place = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.coltype_device = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.colmodem_note = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.colnote = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.coldate_operation = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.coltel_abon = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.coladress_abon = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.colkto_poluch = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.colnote_status = new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn();
+            this.sim_issueTableAdapter = new Meters_SIM.SIMOTIONDataSet1TableAdapters.Sim_issueTableAdapter();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.sIMOTIONDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.simissueBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.advBandedGridView1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // sIMOTIONDataSet1
+            // 
+            this.sIMOTIONDataSet1.DataSetName = "SIMOTIONDataSet1";
+            this.sIMOTIONDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // gridControl1
+            // 
+            this.gridControl1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.gridControl1.DataSource = this.simissueBindingSource;
+            this.gridControl1.Location = new System.Drawing.Point(27, 12);
+            this.gridControl1.MainView = this.advBandedGridView1;
+            this.gridControl1.Name = "gridControl1";
+            this.gridControl1.Size = new System.Drawing.Size(1055, 368);
+            this.gridControl1.TabIndex = 0;
+            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.advBandedGridView1});
+            // 
+            // simissueBindingSource
+            // 
+            this.simissueBindingSource.DataMember = "Sim_issue";
+            this.simissueBindingSource.DataSource = this.sIMOTIONDataSet1;
+            // 
+            // advBandedGridView1
+            // 
+            this.advBandedGridView1.Bands.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.GridBand[] {
+            this.gridBand1});
+            this.advBandedGridView1.Columns.AddRange(new DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn[] {
+            this.colid,
+            this.colid_simno,
+            this.colid_device,
+            this.colid_modem,
+            this.coladres,
+            this.colsim_place,
+            this.coltype_device,
+            this.colmodem_note,
+            this.colnote,
+            this.coldate_operation,
+            this.coltel_abon,
+            this.coladress_abon,
+            this.colkto_poluch,
+            this.colnote_status});
+            this.advBandedGridView1.GridControl = this.gridControl1;
+            this.advBandedGridView1.Name = "advBandedGridView1";
+            this.advBandedGridView1.OptionsBehavior.EditingMode = DevExpress.XtraGrid.Views.Grid.GridEditingMode.EditFormInplace;
+            this.advBandedGridView1.OptionsDetail.AutoZoomDetail = true;
+            this.advBandedGridView1.OptionsFilter.ShowAllTableValuesInFilterPopup = true;
+            this.advBandedGridView1.OptionsFind.AlwaysVisible = true;
+            this.advBandedGridView1.OptionsNavigation.AutoFocusNewRow = true;
+            this.advBandedGridView1.OptionsSelection.MultiSelect = true;
+            this.advBandedGridView1.OptionsView.NewItemRowPosition = DevExpress.XtraGrid.Views.Grid.NewItemRowPosition.Top;
+            this.advBandedGridView1.OptionsView.ShowAutoFilterRow = true;
+            this.advBandedGridView1.OptionsView.ShowFooter = true;
+            this.advBandedGridView1.OptionsView.ShowGroupPanel = false;
+            // 
+            // gridBand1
+            // 
+            this.gridBand1.Caption = "Операции над сим картами";
+            this.gridBand1.Columns.Add(this.colid);
+            this.gridBand1.Columns.Add(this.colid_simno);
+            this.gridBand1.Columns.Add(this.colid_device);
+            this.gridBand1.Columns.Add(this.colid_modem);
+            this.gridBand1.Columns.Add(this.coladres);
+            this.gridBand1.Columns.Add(this.colsim_place);
+            this.gridBand1.Columns.Add(this.coltype_device);
+            this.gridBand1.Columns.Add(this.colmodem_note);
+            this.gridBand1.Columns.Add(this.colnote);
+            this.gridBand1.Columns.Add(this.coldate_operation);
+            this.gridBand1.Columns.Add(this.coltel_abon);
+            this.gridBand1.Columns.Add(this.coladress_abon);
+            this.gridBand1.Columns.Add(this.colkto_poluch);
+            this.gridBand1.Columns.Add(this.colnote_status);
+            this.gridBand1.Name = "gridBand1";
+            this.gridBand1.VisibleIndex = 0;
+            this.gridBand1.Width = 1050;
+            // 
+            // colid
+            // 
+            this.colid.FieldName = "id";
+            this.colid.Name = "colid";
+            this.colid.OptionsColumn.ReadOnly = true;
+            this.colid.Visible = true;
+            // 
+            // colid_simno
+            // 
+            this.colid_simno.FieldName = "id_simno";
+            this.colid_simno.Name = "colid_simno";
+            this.colid_simno.OptionsColumn.ReadOnly = true;
+            this.colid_simno.Visible = true;
+            // 
+            // colid_device
+            // 
+            this.colid_device.FieldName = "id_device";
+            this.colid_device.Name = "colid_device";
+            this.colid_device.OptionsColumn.ReadOnly = true;
+            this.colid_device.Visible = true;
+            // 
+            // colid_modem
+            // 
+            this.colid_modem.FieldName = "id_modem";
+            this.colid_modem.Name = "colid_modem";
+            this.colid_modem.OptionsColumn.ReadOnly = true;
+            this.colid_modem.Visible = true;
+            // 
+            // coladres
+            // 
+            this.coladres.FieldName = "adres";
+            this.coladres.Name = "coladres";
+            this.coladres.Visible = true;
+            // 
+            // colsim_place
+            // 
+            this.colsim_place.FieldName = "sim_place";
+            this.colsim_place.Name = "colsim_place";
+            this.colsim_place.Visible = true;
+            // 
+            // coltype_device
+            // 
+            this.coltype_device.FieldName = "type_device";
+            this.coltype_device.Name = "coltype_device";
+            this.coltype_device.Visible = true;
+            // 
+            // colmodem_note
+            // 
+            this.colmodem_note.FieldName = "modem_note";
+            this.colmodem_note.Name = "colmodem_note";
+            this.colmodem_note.Visible = true;
+            // 
+            // colnote
+            // 
+            this.colnote.FieldName = "note";
+            this.colnote.Name = "colnote";
+            this.colnote.Visible = true;
+            // 
+            // coldate_operation
+            // 
+            this.coldate_operation.FieldName = "date_operation";
+            this.coldate_operation.Name = "coldate_operation";
+            this.coldate_operation.Visible = true;
+            // 
+            // coltel_abon
+            // 
+            this.coltel_abon.FieldName = "tel_abon";
+            this.coltel_abon.Name = "coltel_abon";
+            this.coltel_abon.Visible = true;
+            // 
+            // coladress_abon
+            // 
+            this.coladress_abon.FieldName = "adress_abon";
+            this.coladress_abon.Name = "coladress_abon";
+            this.coladress_abon.Visible = true;
+            // 
+            // colkto_poluch
+            // 
+            this.colkto_poluch.FieldName = "kto_poluch";
+            this.colkto_poluch.Name = "colkto_poluch";
+            this.colkto_poluch.Visible = true;
+            // 
+            // colnote_status
+            // 
+            this.colnote_status.FieldName = "note_status";
+            this.colnote_status.Name = "colnote_status";
+            this.colnote_status.Visible = true;
+            // 
+            // sim_issueTableAdapter
+            // 
+            this.sim_issueTableAdapter.ClearBeforeFill = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(27, 413);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Delete";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(125, 413);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "Save";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(222, 413);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 3;
+            this.button3.Text = "Report";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // Operation_with_SimCards
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1106, 472);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.gridControl1);
+            this.Name = "Operation_with_SimCards";
+            this.Text = "Operation_with_SimCards";
+            this.Load += new System.EventHandler(this.Operation_with_SimCards_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.sIMOTIONDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.

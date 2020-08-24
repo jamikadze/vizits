@@ -1,0 +1,172 @@
+ef="small/image.gif"><img class="blackico" src="small/image.gif" 
+   /><img class="whiteico" src="small/image.gif" /> small/image.gif</a>
+ <br /><a href="small/image.png"><img class="blackico" src="small/image.png" 
+   /><img class="whiteico" src="small/image.png" /> small/image.png</a></td>
+<td width="25%">
+ <a href="small/image2.gif"><img class="blackico" src="small/image2.gif" 
+   /><img class="whiteico" src="small/image2.gif" /> small/image2.gif</a>
+ <br /><a href="small/image2.png"><img class="blackico" src="small/image2.png" 
+   /><img class="whiteico" src="small/image2.png" /> small/image2.png</a></td>
+</tr>
+<tr><td colspan="4">These can represent image formats of various types.</td>
+</tr>
+
+<tr>
+<td width="25%">
+ <a href="index.gif"><img class="blackico" src="index.gif" 
+   /><img class="whiteico" src="index.gif" /> index.gif</a>
+ <br /><a href="index.png"><img class="blackico" src="index.png" 
+   /><img class="whiteico" src="index.png" /> index.png</a></td>
+<td width="25%">
+ <a href="small/index.gif"><img class="blackico" src="small/index.gif" 
+   /><img class="whiteico" src="small/index.gif" /> small/index.gif</a>
+ <br /><a href="small/index.png"><img class="blackico" src="small/index.png" 
+   /><img class="whiteico" src="small/index.png" /> small/index.png</a></td>
+</tr>
+<tr><td colspan="4">This might represent a WAIS index or search facility.</td>
+</tr>
+
+<tr>
+<td width="25%">
+ <a href="small/key.gif"><img class="blackico" src="small/key.gif" 
+   /><img class="whiteico" src="small/key.gif" /> small/key.gif</a>
+ <br /><a href="small/key.png"><img class="blackico" src="small/key.png" 
+   /><img class="whiteico" src="small/key.png" /> small/key.png</a></td>
+</tr>
+<tr><td colspan="4">This might represent a locked file.</td>
+</tr>
+
+<tr>
+<td width="25%">
+ <a href="layout.gif"><img class="blackico" src="layout.gif" 
+   /><img class="whiteico" src="layout.gif" /> layout.gif</a>
+ <br /><a href="layout.png"><img class="blackico" src="layout.png" 
+   /><img class="whiteico" src="layout.png" /> layout.png</a></td>
+</tr>
+<tr><td colspan="4">This might represent files and formats that contain
+graphics as well as text layout, such as HTML and PDF files.</td>
+</tr>
+
+<tr>
+<td width="25%">
+ <a href="link.gif"><img class="blackico" src="link.gif" 
+   /><img class="whiteico" src="link.gif" /> link.gif</a>
+ <br /><a href="link.png"><img class="blackico" src="link.png" 
+   /><img class="whiteico" src="link.png" /> link.png</a></td>
+</tr>
+<tr><td colspan="4">This might represent files that are symbolic links.</td>
+</tr>
+
+<tr>
+<td width="25%">
+ <a href="movie.gif"><img class="blackico" src="movie.gif" 
+   /><img class="whiteico" src="movie.gif" /> movie.gif</a>
+ <br /><a href="movie.png"><img class="blackico" src="movie.png" 
+   /><img class="whiteico" src="movie.png" /> movie.png</a></td>
+<td width="25%">
+ <a href="small/movie.gif"><img class="blackico" src="small/movie.gif" 
+   /><img class="whiteico" src="small/movie.gif" /> small/movie.gif</a>
+ <br /><a href="small/movie.png"><img class="blackico" src="small/movie.png" 
+   /><img class="whiteico" src="small/movie.png" /> small/movie.png</a></td>
+</tr>
+<tr><td colspan="4">This can represent various movie formats.</td>
+</tr>
+
+<tr>
+<td width="25%">
+ <a href="p.gif"><img class="blackico" src="p.gif" 
+   /><img class="whiteico" src="p.gif" /> p.gif</a>
+ <br /><a href="p.png"><img class="blackico" src="p.png" 
+   /><img class="whiteico" src="p.png" /> p.png</a></td>
+</tr>
+<tr><td colspan="4">This may stand for Perl or Python source code.</td>
+</tr>
+
+<tr>
+<td width="25%">
+ <a href="pie0.gif"><img class="blackico" src="pie0.gif" 
+   /><img class="whiteico" src="pie0.gif" /> pie0.gif</a>
+ <br /><a href="pie1.png"><img class="blackico" src="pie0.png" 
+   /><img class="whiteico" src="pie0.png" /> pie0.png</a></td>
+<td width="25%">
+ <a href="pie1.gif"><img class="blackico" src="pie1.gif" 
+   /><img class="whiteico" src="pie1.gif" /> pie1.gif</a>
+ <br /><a href="pie1.png"><img class="blackico" src="pie1.png" 
+   /><img class="whiteico" src="pie1.png" /> pie1.png</a></td>
+<td width="25%">
+ <a href="pie2.gif"><img class="blackico" src="pie2.gif" 
+   /><img class="whiteico" src="pie2.gif" /> pie2.gif</a>
+ <br /><a href="pie2.png"><img class="blackico" src="pie2.png" 
+   /><img class="whiteico" src="pie2.png" /> pie2.png</a></td>
+<td width="25%">
+ <a href="pie3.gif"><img class="blackico" src="pie3.gif" 
+   /><img class="whiteico" src="pie3.gif" /> pie3.gif</a>
+ <br /><a href="pie3.png"><img class="blackico" src="pie3.png" 
+   /><img class="whiteico" src="pie3.png" /> pie3.png</a></td>
+</tr><tr>
+<td width="25%">
+ <a href="pie4.gif"><img class="blackico" src="pie4.gif" 
+   /><img class="whiteico" src="pie4.gif" /> pie4.gif</a>
+ <br /><a href="pie4.png"><img class="blackico" src="pie4.png" 
+   /><img class="whiteico" src="pie4.png" /> pie4.png</a></td>
+<td width="25%">
+ <a href="pie5.gif"><img class="blackico" src="pie5.gif" 
+   /><img class="whiteico" src="pie5.gif" /> pie5.gif</a>
+ <br /><a href="pie5.png"><img class="blackico" src="pie5.png" 
+   /><img class="whiteico" src="pie5.png" /> pie5.png</a></td>
+<td width="25%">
+ <a href="pie6.gif"><img class="blackico" src="pie6.gif" 
+   /><img class="whiteico" src="pie6.gif" /> pie6.gif</a>
+ <br /><a href="pie6.png"><img class="blackico" src="pie6.png" 
+   /><img class="whiteico" src="pie6.png" /> pie6.png</a></td>
+<td width="25%">
+ <a href="pie7.gif"><img class="blackico" src="pie7.gif" 
+   /><img class="whiteico" src="pie7.gif" /> pie7.gif</a>
+ <br /><a href="pie7.png"><img class="blackico" src="pie7.png" 
+   /><img class="whiteico" src="pie7.png" /> pie7.png</a></td>
+</tr><tr>
+<td width="25%">
+ <a href="pie8.gif"><img class="blackico" src="pie8.gif" 
+   /><img class="whiteico" src="pie8.gif" /> pie8.gif</a>
+ <br /><a href="pie8.png"><img class="blackico" src="pie8.png" 
+   /><img class="whiteico" src="pie8.png" /> pie8.png</a></td>
+</tr>
+<tr><td colspan="4">These icons can be used in applications where a list of
+documents is returned from a search. The little pie chart images
+can denote how relevant the documents may be to your search query.</td>
+</tr>
+
+<tr>
+<td width="25%">
+ <a href="patch.gif"><img class="blackico" src="patch.gif" 
+   /><img class="whiteico" src="patch.gif" /> patch.gif</a>
+ <br /><a href="patch.png"><img class="blackico" src="patch.png" 
+   /><img class="whiteico" src="patch.png" /> patch.png</a></td>
+<td width="25%">
+ <a href="small/patch.gif"><img class="blackico" src="small/patch.gif" 
+   /><img class="whiteico" src="small/patch.gif" /> small/patch.gif</a>
+ <br /><a href="small/patch.png"><img class="blackico" src="small/patch.png" 
+   /><img class="whiteico" src="small/patch.png" /> small/patch.png</a></td>
+</tr>
+<tr><td colspan="4">This may stand for patches and diff files.</td>
+</tr>
+
+<tr>
+<td width="25%">
+ <a href="portal.gif"><img class="blackico" src="portal.gif" 
+   /><img class="whiteico" src="portal.gif" /> portal.gif</a>
+ <br /><a href="portal.png"><img class="blackico" src="portal.png" 
+   /><img class="whiteico" src="portal.png" /> portal.png</a></td>
+</tr>
+<tr><td colspan="4">This might be a link to an online service or a 3D
+world.</td>
+</tr>
+
+<tr>
+<td width="25%">
+ <a href="pdf.gif"><img class="blackico" src="pdf.gif" 
+   /><img class="whiteico" src="pdf.gif" /> pdf.gif</a>
+ <br /><a href="pdf.png"><img class="blackico" src="pdf.png" 
+   /><img class="whiteico" src="pdf.png" /> pdf.png</a></td>
+<td width="25%">
+ <a href="ps.gif"><img class="blackico" src="ps.g

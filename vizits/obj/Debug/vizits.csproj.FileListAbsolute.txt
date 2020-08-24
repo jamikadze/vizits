@@ -1,0 +1,16 @@
+D:\Jamila\programs\vizits\vizits\bin\Debug\vizits.exe.config
+D:\Jamila\programs\vizits\vizits\obj\Debug\vizits.LoginForm.resources
+D:\Jamila\programs\vizits\vizits\obj\Debug\vizits.Properties.Resources.resources
+D:\Jamila\programs\vizits\vizits\obj\Debug\vizits.csproj.GenerateResource.Cache
+D:\Jamila\programs\vizits\vizits\bin\Debug\vizits.exe
+D:\Jamila\programs\vizits\vizits\bin\Debug\vizits.pdb
+D:\Jamila\programs\vizits\vizits\obj\Debug\vizits.MainForm.resources
+D:\Jamila\programs\vizits\vizits\obj\Debug\vizits.exe
+D:\Jamila\programs\vizits\vizits\obj\Debug\vizits.pdb
+D:\Jamila\programs\vizits\vizits\obj\Debug\vizits.csprojResolveAssemblyReference.cache
+D:\Jamila\programs\vizits\vizits\obj\Debug\vizits.exe.licenses
+D:\Jamila\programs\vizits\vizits\obj\Debug\vizits.EditForm.resources
+D:\Jamila\programs\vizits\vizits\bin\Debug\vizits.exe.manifest
+D:\Jamila\programs\vizits\vizits\bin\Debug\vizits.application
+D:\Jamila\programs\vizits\vizits\obj\Debug\vizits.exe.manifest
+D:\Jamila\programs\vizits\vizits\obj\Debug\vizits.application

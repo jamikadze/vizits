@@ -1,0 +1,493 @@
+styles.
+		 *
+		 * @since 2.0.0
+		 *
+		 * @see TGM_Plugin_Activation::admin_menu()
+		 * @see TGM_Plugin_Activation::notices()
+		 * @see TGM_Plugin_Activation::styles()
+		 */
+		public function init() {
+			/**
+			 * By default TGMPA only loads on the WP back-end and not in an Ajax call. Using this filter
+			 * you can overrule that behaviour.
+			 *
+			 * @since 2.5.0
+			 *
+			 * @param bool $load Whether or not TGMPA should load.
+			 *                   Defaults to the return of `is_admin() && ! defined( 'DOING_AJAX' )`.
+			 */
+			if ( true !== apply_filters( 'tgmpa_load', ( is_admin() && ! defined( 'DOING_AJAX' ) ) ) ) {
+				return;
+			}
+
+			// Load class strings.
+			$this->strings = array(
+				'page_title'                      => __( 'Install Required Plugins', 'cryout' ),
+				'menu_title'                      => __( 'Install Plugins', 'cryout' ),
+				/* translators: %s: plugin name. */
+				'installing'                      => __( 'Installing Plugin: %s', 'cryout' ),
+				/* translators: %s: plugin name. */
+				'updating'                        => __( 'Updating Plugin: %s', 'cryout' ),
+				'oops'                            => __( 'Something went wrong with the plugin API.', 'cryout' ),
+				'notice_can_install_required'     => _n_noop(
+					/* translators: 1: plugin name(s). */
+					'This theme requires the following plugin: %1$s.',
+					'This theme requires the following plugins: %1$s.',
+					'cryout'
+				),
+				'notice_can_install_recommended'  => _n_noop(
+					/* translators: 1: plugin name(s). */
+					'This theme recommends the following plugin: %1$s.',
+					'This theme recommends the following plugins: %1$s.',
+					'cryout'
+				),
+				'notice_ask_to_update'            => _n_noop(
+					/* translators: 1: plugin name(s). */
+					'The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s.',
+					'The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s.',
+					'cryout'
+				),
+				'notice_ask_to_update_maybe'      => _n_noop(
+					/* translators: 1: plugin name(s). */
+					'There is an update available for: %1$s.',
+					'There are updates available for the following plugins: %1$s.',
+					'cryout'
+				),
+				'notice_can_activate_required'    => _n_noop(
+					/* translators: 1: plugin name(s). */
+					'The following required plugin is currently inactive: %1$s.',
+					'The following required plugins are currently inactive: %1$s.',
+					'cryout'
+				),
+				'notice_can_activate_recommended' => _n_noop(
+					/* translators: 1: plugin name(s). */
+					'The following recommended plugin is currently inactive: %1$s.',
+					'The following recommended plugins are currently inactive: %1$s.',
+					'cryout'
+				),
+				'install_link'                    => _n_noop(
+					'Begin installing plugin',
+					'Begin installing plugins',
+					'cryout'
+				),
+				'update_link'                     => _n_noop(
+					'Begin updating plugin',
+					'Begin updating plugins',
+					'cryout'
+				),
+				'activate_link'                   => _n_noop(
+					'Begin activating plugin',
+					'Begin activating plugins',
+					'cryout'
+				),
+				'return'                          => __( 'Return to Required Plugins Installer', 'cryout' ),
+				'dashboard'                       => __( 'Return to the Dashboard', 'cryout' ),
+				'plugin_activated'                => __( 'Plugin activated successfully.', 'cryout' ),
+				'activated_successfully'          => __( 'The following plugin was activated successfully:', 'cryout' ),
+				/* translators: 1: plugin name. */
+				'plugin_already_active'           => __( 'No action taken. Plugin %1$s was already active.', 'cryout' ),
+				/* translators: 1: plugin name. */
+				'plugin_needs_higher_version'     => __( 'Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin.', 'cryout' ),
+				/* translators: 1: dashboard link. */
+				'complete'                        => __( 'All plugins installed and activated successfully. %1$s', 'cryout' ),
+				'dismiss'                         => __( 'Dismiss this notice', 'cryout' ),
+				'notice_cannot_install_activate'  => __( 'There are one or more required or recommended plugins to install, update or activate.', 'cryout' ),
+				'contact_admin'                   => __( 'Please contact the administrator of this site for help.', 'cryout' ),
+			);
+
+			do_action( 'tgmpa_register' );
+
+			/* After this point, the plugins should be registered and the configuration set. */
+
+			// Proceed only if we have plugins to handle.
+			if ( empty( $this->plugins ) || ! is_array( $this->plugins ) ) {
+				return;
+			}
+
+			// Set up the menu and notices if we still have outstanding actions.
+			if ( true !== $this->is_tgmpa_complete() ) {
+				// Sort the plugins.
+				array_multisort( $this->sort_order, SORT_ASC, $this->plugins );
+
+				add_action( 'admin_menu', array( $this, 'admin_menu' ) );
+				add_action( 'admin_head', array( $this, 'dismiss' ) );
+
+				// Prevent the normal links from showing underneath a single install/update page.
+				add_filter( 'install_plugin_complete_actions', array( $this, 'actions' ) );
+				add_filter( 'update_plugin_complete_actions', array( $this, 'actions' ) );
+
+				if ( $this->has_notices ) {
+					add_action( 'admin_notices', array( $this, 'notices' ) );
+					add_action( 'admin_init', array( $this, 'admin_init' ), 1 );
+					add_action( 'admin_enqueue_scripts', array( $this, 'thickbox' ) );
+				}
+			}
+
+			// If needed, filter plugin action links.
+			add_action( 'load-plugins.php', array( $this, 'add_plugin_action_link_filters' ), 1 );
+
+			// Make sure things get reset on switch theme.
+			add_action( 'switch_theme', array( $this, 'flush_plugins_cache' ) );
+
+			if ( $this->has_notices ) {
+				add_action( 'switch_theme', array( $this, 'update_dismiss' ) );
+			}
+
+			// Setup the force activation hook.
+			if ( true === $this->has_forced_activation ) {
+				add_action( 'admin_init', array( $this, 'force_activation' ) );
+			}
+
+			// Setup the force deactivation hook.
+			if ( true === $this->has_forced_deactivation ) {
+				add_action( 'switch_theme', array( $this, 'force_deactivation' ) );
+			}
+		}
+
+
+
+
+
+
+
+		/**
+		 * Hook in plugin action link filters for the WP native plugins page.
+		 *
+		 * - Prevent activation of plugins which don't meet the minimum version requirements.
+		 * - Prevent deactivation of force-activated plugins.
+		 * - Add update notice if update available.
+		 *
+		 * @since 2.5.0
+		 */
+		public function add_plugin_action_link_filters() {
+			foreach ( $this->plugins as $slug => $plugin ) {
+				if ( false === $this->can_plugin_activate( $slug ) ) {
+					add_filter( 'plugin_action_links_' . $plugin['file_path'], array( $this, 'filter_plugin_action_links_activate' ), 20 );
+				}
+
+				if ( true === $plugin['force_activation'] ) {
+					add_filter( 'plugin_action_links_' . $plugin['file_path'], array( $this, 'filter_plugin_action_links_deactivate' ), 20 );
+				}
+
+				if ( false !== $this->does_plugin_require_update( $slug ) ) {
+					add_filter( 'plugin_action_links_' . $plugin['file_path'], array( $this, 'filter_plugin_action_links_update' ), 20 );
+				}
+			}
+		}
+
+		/**
+		 * Remove the 'Activate' link on the WP native plugins page if the plugin does not meet the
+		 * minimum version requirements.
+		 *
+		 * @since 2.5.0
+		 *
+		 * @param array $actions Action links.
+		 * @return array
+		 */
+		public function filter_plugin_action_links_activate( $actions ) {
+			unset( $actions['activate'] );
+
+			return $actions;
+		}
+
+		/**
+		 * Remove the 'Deactivate' link on the WP native plugins page if the plugin has been set to force activate.
+		 *
+		 * @since 2.5.0
+		 *
+		 * @param array $actions Action links.
+		 * @return array
+		 */
+		public function filter_plugin_action_links_deactivate( $actions ) {
+			unset( $actions['deactivate'] );
+
+			return $actions;
+		}
+
+		/**
+		 * Add a 'Requires update' link on the WP native plugins page if the plugin does not meet the
+		 * minimum version requirements.
+		 *
+		 * @since 2.5.0
+		 *
+		 * @param array $actions Action links.
+		 * @return array
+		 */
+		public function filter_plugin_action_links_update( $actions ) {
+			$actions['update'] = sprintf(
+				'<a href="%1$s" title="%2$s" class="edit">%3$s</a>',
+				esc_url( $this->get_tgmpa_status_url( 'update' ) ),
+				esc_attr__( 'This plugin needs to be updated to be compatible with your theme.', 'cryout' ),
+				esc_html__( 'Update Required', 'cryout' )
+			);
+
+			return $actions;
+		}
+
+		/**
+		 * Handles calls to show plugin information via links in the notices.
+		 *
+		 * We get the links in the admin notices to point to the TGMPA page, rather
+		 * than the typical plugin-install.php file, so we can prepare everything
+		 * beforehand.
+		 *
+		 * WP does not make it easy to show the plugin information in the thickbox -
+		 * here we have to require a file that includes a function that does the
+		 * main work of displaying it, enqueue some styles, set up some globals and
+		 * finally call that function before exiting.
+		 *
+		 * Down right easy once you know how...
+		 *
+		 * Returns early if not the TGMPA page.
+		 *
+		 * @since 2.1.0
+		 *
+		 * @global string $tab Used as iframe div class names, helps with styling
+		 * @global string $body_id Used as the iframe body ID, helps with styling
+		 *
+		 * @return null Returns early if not the TGMPA page.
+		 */
+		public function admin_init() {
+			if ( ! $this->is_tgmpa_page() ) {
+				return;
+			}
+
+			if ( isset( $_REQUEST['tab'] ) && 'plugin-information' === $_REQUEST['tab'] ) {
+				// Needed for install_plugin_information().
+				require_once ABSPATH . 'wp-admin/includes/plugin-install.php';
+
+				wp_enqueue_style( 'plugin-install' );
+
+				global $tab, $body_id;
+				$body_id = 'plugin-information';
+				// @codingStandardsIgnoreStart
+				$tab     = 'plugin-information';
+				// @codingStandardsIgnoreEnd
+
+				install_plugin_information();
+
+				exit;
+			}
+		}
+
+		/**
+		 * Enqueue thickbox scripts/styles for plugin info.
+		 *
+		 * Thickbox is not automatically included on all admin pages, so we must
+		 * manually enqueue it for those pages.
+		 *
+		 * Thickbox is only loaded if the user has not dismissed the admin
+		 * notice or if there are any plugins left to install and activate.
+		 *
+		 * @since 2.1.0
+		 */
+		public function thickbox() {
+			if ( ! get_user_meta( get_current_user_id(), 'tgmpa_dismissed_notice_' . $this->id, true ) ) {
+				add_thickbox();
+			}
+		}
+
+		/**
+		 * Adds submenu page if there are plugin actions to take.
+		 *
+		 * This method adds the submenu page letting users know that a required
+		 * plugin needs to be installed.
+		 *
+		 * This page disappears once the plugin has been installed and activated.
+		 *
+		 * @since 1.0.0
+		 *
+		 * @see TGM_Plugin_Activation::init()
+		 * @see TGM_Plugin_Activation::install_plugins_page()
+		 *
+		 * @return null Return early if user lacks capability to install a plugin.
+		 */
+		public function admin_menu() {
+			// Make sure privileges are correct to see the page.
+			if ( ! current_user_can( 'install_plugins' ) ) {
+				return;
+			}
+
+			$args = apply_filters(
+				'tgmpa_admin_menu_args',
+				array(
+					'parent_slug' => $this->parent_slug,                     // Parent Menu slug.
+					'page_title'  => $this->strings['page_title'],           // Page title.
+					'menu_title'  => $this->strings['menu_title'],           // Menu title.
+					'capability'  => $this->capability,                      // Capability.
+					'menu_slug'   => $this->menu,                            // Menu slug.
+					'function'    => array( $this, 'install_plugins_page' ), // Callback.
+				)
+			);
+
+			$this->add_admin_menu( $args );
+		}
+
+		/**
+		 * Add the menu item.
+		 *
+		 * {@internal IMPORTANT! If this function changes, review the regex in the custom TGMPA
+		 * generator on the website.}}
+		 *
+		 * @since 2.5.0
+		 *
+		 * @param array $args Menu item configuration.
+		 */
+		protected function add_admin_menu( array $args ) {
+			$this->page_hook = add_theme_page( $args['page_title'], $args['menu_title'], $args['capability'], $args['menu_slug'], $args['function'] );
+		}
+
+		/**
+		 * Echoes plugin installation form.
+		 *
+		 * This method is the callback for the admin_menu method function.
+		 * This displays the admin page and form area where the user can select to install and activate the plugin.
+		 * Aborts early if we're processing a plugin installation action.
+		 *
+		 * @since 1.0.0
+		 *
+		 * @return null Aborts early if we're processing a plugin installation action.
+		 */
+		public function install_plugins_page() {
+			// Store new instance of plugin table in object.
+			$plugin_table = new TGMPA_List_Table;
+
+			// Return early if processing a plugin installation action.
+			if ( ( ( 'tgmpa-bulk-install' === $plugin_table->current_action() || 'tgmpa-bulk-update' === $plugin_table->current_action() ) && $plugin_table->process_bulk_actions() ) || $this->do_plugin_install() ) {
+				return;
+			}
+
+			// Force refresh of available plugin information so we'll know about manual updates/deletes.
+			wp_clean_plugins_cache( false );
+
+			?>
+			<div class="tgmpa wrap">
+				<h1><?php echo esc_html( get_admin_page_title() ); ?></h1>
+				<?php $plugin_table->prepare_items(); ?>
+
+				<?php
+				if ( ! empty( $this->message ) && is_string( $this->message ) ) {
+					echo wp_kses_post( $this->message );
+				}
+				?>
+				<?php $plugin_table->views(); ?>
+
+				<form id="tgmpa-plugins" action="" method="post">
+					<input type="hidden" name="tgmpa-page" value="<?php echo esc_attr( $this->menu ); ?>" />
+					<input type="hidden" name="plugin_status" value="<?php echo esc_attr( $plugin_table->view_context ); ?>" />
+					<?php $plugin_table->display(); ?>
+				</form>
+			</div>
+			<?php
+		}
+
+		/**
+		 * Installs, updates or activates a plugin depending on the action link clicked by the user.
+		 *
+		 * Checks the $_GET variable to see which actions have been
+		 * passed and responds with the appropriate method.
+		 *
+		 * Uses WP_Filesystem to process and handle the plugin installation
+		 * method.
+		 *
+		 * @since 1.0.0
+		 *
+		 * @uses WP_Filesystem
+		 * @uses WP_Error
+		 * @uses WP_Upgrader
+		 * @uses Plugin_Upgrader
+		 * @uses Plugin_Installer_Skin
+		 * @uses Plugin_Upgrader_Skin
+		 *
+		 * @return boolean True on success, false on failure.
+		 */
+		protected function do_plugin_install() {
+			if ( empty( $_GET['plugin'] ) ) {
+				return false;
+			}
+
+			// All plugin information will be stored in an array for processing.
+			$slug = $this->sanitize_key( urldecode( $_GET['plugin'] ) );
+
+			if ( ! isset( $this->plugins[ $slug ] ) ) {
+				return false;
+			}
+
+			// Was an install or upgrade action link clicked?
+			if ( ( isset( $_GET['tgmpa-install'] ) && 'install-plugin' === $_GET['tgmpa-install'] ) || ( isset( $_GET['tgmpa-update'] ) && 'update-plugin' === $_GET['tgmpa-update'] ) ) {
+
+				$install_type = 'install';
+				if ( isset( $_GET['tgmpa-update'] ) && 'update-plugin' === $_GET['tgmpa-update'] ) {
+					$install_type = 'update';
+				}
+
+				check_admin_referer( 'tgmpa-' . $install_type, 'tgmpa-nonce' );
+
+				// Pass necessary information via URL if WP_Filesystem is needed.
+				$url = wp_nonce_url(
+					add_query_arg(
+						array(
+							'plugin'                 => urlencode( $slug ),
+							'tgmpa-' . $install_type => $install_type . '-plugin',
+						),
+						$this->get_tgmpa_url()
+					),
+					'tgmpa-' . $install_type,
+					'tgmpa-nonce'
+				);
+
+				$method = ''; // Leave blank so WP_Filesystem can populate it as necessary.
+
+				if ( false === ( $creds = request_filesystem_credentials( esc_url_raw( $url ), $method, false, false, array() ) ) ) {
+					return true;
+				}
+
+				if ( ! WP_Filesystem( $creds ) ) {
+					request_filesystem_credentials( esc_url_raw( $url ), $method, true, false, array() ); // Setup WP_Filesystem.
+					return true;
+				}
+
+				/* If we arrive here, we have the filesystem. */
+
+				// Prep variables for Plugin_Installer_Skin class.
+				$extra         = array();
+				$extra['slug'] = $slug; // Needed for potentially renaming of directory name.
+				$source        = $this->get_download_url( $slug );
+				$api           = ( 'repo' === $this->plugins[ $slug ]['source_type'] ) ? $this->get_plugins_api( $slug ) : null;
+				$api           = ( false !== $api ) ? $api : null;
+
+				$url = add_query_arg(
+					array(
+						'action' => $install_type . '-plugin',
+						'plugin' => urlencode( $slug ),
+					),
+					'update.php'
+				);
+
+				if ( ! class_exists( 'Plugin_Upgrader', false ) ) {
+					require_once ABSPATH . 'wp-admin/includes/class-wp-upgrader.php';
+				}
+
+				$title     = ( 'update' === $install_type ) ? $this->strings['updating'] : $this->strings['installing'];
+				$skin_args = array(
+					'type'   => ( 'bundled' !== $this->plugins[ $slug ]['source_type'] ) ? 'web' : 'upload',
+					'title'  => sprintf( $title, $this->plugins[ $slug ]['name'] ),
+					'url'    => esc_url_raw( $url ),
+					'nonce'  => $install_type . '-plugin_' . $slug,
+					'plugin' => '',
+					'api'    => $api,
+					'extra'  => $extra,
+				);
+				unset( $title );
+
+				if ( 'update' === $install_type ) {
+					$skin_args['plugin'] = $this->plugins[ $slug ]['file_path'];
+					$skin                = new Plugin_Upgrader_Skin( $skin_args );
+				} else {
+					$skin = new Plugin_Installer_Skin( $skin_args );
+				}
+
+				// Create a new instance of Plugin_Upgrader.
+				$upgrader = new Plugin_Upgrader( $skin );
+
+				// Perform the actio
